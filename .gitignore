@@ -1,3 +1,2 @@
-wordpress/wp-admin/**
-wordpress/wp-includes/**
-wordpress/""
+wordpress/**
+!wordpress/wp-content/themes/**
