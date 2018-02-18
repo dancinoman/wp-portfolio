@@ -1,2 +1,4 @@
-wordpress/**
-!wordpress/wp-content/themes/**
+
+!wordpress/wp-content/themes
+wordpress/wp-content/uploads/
+
