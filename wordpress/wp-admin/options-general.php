@@ -68,6 +68,12 @@ include( ABSPATH . 'wp-admin/admin-header.php' );
 <p class="description" id="tagline-description"><?php _e( 'In a few words, explain what this site is about.' ) ?></p></td>
 </tr>
 
+<tr>
+<th scope="row"><label for="keywords"><?php _e('Keywords') ?></label></th>
+<td><input name="keywords" type="text" id="keywords" value="<?php form_option('keywords'); ?>" class="regular-text" />
+<p class="description" id="keywords"><?php _e( 'Some keywords usefull for search engines' ) ?></p></td>
+</tr>
+
 <?php if ( !is_multisite() ) { ?>
 
 <tr>

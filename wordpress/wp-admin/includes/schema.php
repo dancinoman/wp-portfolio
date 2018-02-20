@@ -396,6 +396,7 @@ function populate_options() {
 	'blogname' => __('My Site'),
 	/* translators: site tagline */
 	'blogdescription' => __('Just another WordPress site'),
+	'keywords' => __('key1, key2, key3'),
 	'users_can_register' => 0,
 	'admin_email' => 'you@example.com',
 	/* translators: default start of the week. 0 = Sunday, 1 = Monday */

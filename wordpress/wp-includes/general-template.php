@@ -591,6 +591,7 @@ function bloginfo( $show = '' ) {
  *
  * - 'name' - Site title (set in Settings > General)
  * - 'description' - Site tagline (set in Settings > General)
+ * - 'keywords' - Site keywords (set in Settings > General)
  * - 'wpurl' - The WordPress address (URL) (set in Settings > General)
  * - 'url' - The Site address (URL) (set in Settings > General)
  * - 'admin_email' - Admin email (set in Settings > General)
@@ -642,6 +643,9 @@ function get_bloginfo( $show = '', $filter = 'raw' ) {
 				'<code>bloginfo()</code>',
 				'<code>url</code>'
 			) );
+		case 'keywords' :
+			$output = get_option('keywords');
+			break;
 		case 'url' :
 			$output = home_url();
 			break;
