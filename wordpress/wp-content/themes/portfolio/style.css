@@ -5,9 +5,7 @@ Version: 1.0
 */
 
 *{
-	font-size: 20px;
 	font-family: monospace;
-	border-radius: 5px;
 }
 
 fieldset{
@@ -37,9 +35,24 @@ html,body{
 
 h1 {
 	width: 100%;
-
 	font-family: monospace;
 	font-size: 50px;
 	color: white;
 	text-shadow: 20px 20px #113300;
+}
+
+/*Header text */
+
+.header-text {
+	font-size: 16px;
+	background-color: #EFFEFE;
+	border-top: 5px groove #AA90AA;
+	border-bottom: 5px groove #AA90AA;
+}
+
+.header-text p {
+	text-align: center;
+	width: 50%;
+	padding: 7px;
+	margin: auto;
 }
