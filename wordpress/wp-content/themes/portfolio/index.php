@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<!-- Header text -->
 <div class="header-text">
   <p>
     <?php
