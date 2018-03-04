@@ -4,7 +4,7 @@
     <?php wp_head(); ?>
     <style>
     /* *Images loads from media library */
-    <?php $image_header =  wp_get_attachment_image_src(5, "large"); ?>
+    <?php $image_header =  wp_get_attachment_image_src(14, "large"); ?>
     header {
       background-image: url(<?php echo $image_header[0] ?>);
       background-size: cover;
