@@ -12,6 +12,7 @@
 <?php
   $posts_title = get_posts(array("category"=> 3));
     foreach($posts_title as $post) { ?>
+      <!-- The title for sections-->
       <div class="portfolio-title">
         <?php echo $post->post_title; ?>
       </div>
