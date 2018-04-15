@@ -20,8 +20,12 @@
       <?php
       $portfolios = get_posts(array('category'=> $cat->cat_ID));
       foreach($portfolios as $pf) { ?>
+
         <div class="portfolio-content">
-        <?php echo $pf->post_content; ?>
+          <div class="portfolio-cover"></div>
+          <?php
+            echo $pf->post_content;
+          ?>
         </div>
     <?php } ?>
       </div>
