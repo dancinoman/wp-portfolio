@@ -67,3 +67,17 @@ h1 {
 	color: white;
 	font-size: 30px;
 }
+
+.portfolio-container{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.portfolio-content{
+	float: left;
+	border: 1px solid #041F1D;
+}
+
+.portfolio-content:hover {
+
+}
